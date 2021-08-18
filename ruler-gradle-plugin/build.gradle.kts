@@ -46,6 +46,8 @@ tasks.withType<Test> {
     dependsOn("publishToMavenLocal", ":ruler-models:publishToMavenLocal")
 }
 
+configureJavaVersions()
+
 java {
     withSourcesJar()
 }

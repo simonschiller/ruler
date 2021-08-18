@@ -23,6 +23,8 @@ kotlin {
     }
 }
 
+configureJavaVersions()
+
 publishing {
     configurePublications(project)
 }
